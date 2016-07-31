@@ -1,3 +1,0 @@
-{:require  [super-koalio.core]
- :init-fns []
- :compiler-options {}}

@@ -61191,8 +61191,8 @@ play_cljs.core.create_game = function($width$$0$$, $height$$0$$) {
 var shapes = {core:{}};
 "undefined" === typeof shapes.core.game && (shapes.core.game = play_cljs.core.create_game.call(null, 500, 500));
 "undefined" === typeof shapes.core.state && (shapes.core.state = cljs.core.atom.call(null, new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null, "shapes-x", "shapes-x", 1399834151), 0, new cljs.core.Keyword(null, "shapes-y", "shapes-y", 1322989943), 0], null)));
-shapes.core.rgb_content = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "stroke", "stroke", 1741823555), cljs.core.PersistentArrayMap.EMPTY, new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "rgb", "rgb", 1432123467), new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null, "max-r", "max-r", 1711699344), 100, new cljs.core.Keyword(null, "max-g", "max-g", -1655662483), 
-100, new cljs.core.Keyword(null, "max-b", "max-b", -1756758912), 100], null), function() {
+shapes.core.rgb_content = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "stroke", "stroke", 1741823555), cljs.core.PersistentArrayMap.EMPTY, new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "rgb", "rgb", 1432123467), new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "max-r", "max-r", 1711699344), 100, new cljs.core.Keyword(null, "max-g", "max-g", -1655662483), 
+100, new cljs.core.Keyword(null, "max-b", "max-b", -1756758912), 100, new cljs.core.Keyword(null, "max-a", "max-a", 2065821478), 100], null), function() {
   return function $shapes$core$iter__16835$$($s__16836$$) {
     return new cljs.core.LazySeq(null, function() {
       for (var $s__16836__$1$$ = $s__16836$$;;) {
@@ -61243,8 +61243,8 @@ shapes.core.rgb_content = new cljs.core.PersistentVector(null, 3, 5, cljs.core.P
     }, null, null);
   }.call(null, cljs.core.range.call(null, 100));
 }()], null)], null);
-shapes.core.hsb_content = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "stroke", "stroke", 1741823555), cljs.core.PersistentArrayMap.EMPTY, new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "hsb", "hsb", -753472031), new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null, "max-h", "max-h", 1409940394), 100, new cljs.core.Keyword(null, "max-s", "max-s", 781928940), 
-100, new cljs.core.Keyword(null, "max-b", "max-b", -1756758912), 100], null), function() {
+shapes.core.hsb_content = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "stroke", "stroke", 1741823555), cljs.core.PersistentArrayMap.EMPTY, new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "hsb", "hsb", -753472031), new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "max-h", "max-h", 1409940394), 100, new cljs.core.Keyword(null, "max-s", "max-s", 781928940), 
+100, new cljs.core.Keyword(null, "max-b", "max-b", -1756758912), 100, new cljs.core.Keyword(null, "max-a", "max-a", 2065821478), 100], null), function() {
   return function $shapes$core$iter__16843$$($s__16844$$) {
     return new cljs.core.LazySeq(null, function() {
       for (var $s__16844__$1$$ = $s__16844$$;;) {
